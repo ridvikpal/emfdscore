@@ -44,7 +44,7 @@ eMFDscore can also be run in [google colab](https://colab.research.google.com/no
 !pip install -U pip setuptools wheel
 !pip install -U spacy==3.4.0
 !python -m spacy download en_core_web_sm
-!pip install git+https://github.com/medianeuroscience/emfdscore.git
+!pip install git+https://github.com/ridvikpal/emfdscore.git
 ```
 
 Please make sure your spacy version is 3.4.0 (the output of the below code) or else the library won't work!
