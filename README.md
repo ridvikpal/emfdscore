@@ -47,7 +47,7 @@ eMFDscore can also be run in [google colab](https://colab.research.google.com/no
 !pip install git+https://github.com/ridvikpal/emfdscore.git
 ```
 
-You can then use eMFDscore as a python library as documented in our [tutorial](https://github.com/medianeuroscience/emfdscore/blob/master/eMFDscore_Tutorial.ipynb).
+You can then use eMFDscore as a python library as documented in our [tutorial](https://github.com/ridvikpal/emfdscore/blob/master/eMFDscore_Tutorial.ipynb).
 
 ## Troubleshooting
 
