@@ -47,6 +47,10 @@ eMFDscore can also be run in [google colab](https://colab.research.google.com/no
 !pip install git+https://github.com/ridvikpal/emfdscore.git
 ```
 
+You can then use eMFDscore as a python library as documented in our [tutorial](https://github.com/medianeuroscience/emfdscore/blob/master/eMFDscore_Tutorial.ipynb).
+
+## Troubleshooting
+
 Please make sure your spacy version is 3.4.0 (the output of the below code) or else the library won't work!
 
 ```
@@ -54,7 +58,12 @@ import spacy
 print("spaCy version:", spacy.__version__)
 ```
 
-You can then use eMFDscore as a python library as documented in our [tutorial](https://github.com/medianeuroscience/emfdscore/blob/master/eMFDscore_Tutorial.ipynb). 
+If your version is not 3.4.0, then you can install this version using the following command:
+
+```
+!pip install -U space==3.4.0
+# local installation would be pip install -U space==3.4.0
+```
 
 ## Usage 
 Please refer to this [tutorial](https://github.com/medianeuroscience/emfdscore/blob/master/eMFDscore_Tutorial.ipynb) to learn how to use eMFDscore. 
